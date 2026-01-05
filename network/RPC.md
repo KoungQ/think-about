@@ -72,7 +72,7 @@ RPC는 이 문제를 이렇게 바꾼다.
 ---
 
 ### RPC의 기본 구조
-![RPC.png](img/RPC.png)
+![RPC.png](../assets/RPC.png)
 RPC 호출은 보통 다음 단계를 거친다.
 
 - 클라이언트는 로컬 함수처럼 호출한다.
