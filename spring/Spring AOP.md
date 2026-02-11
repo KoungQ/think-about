@@ -96,36 +96,43 @@ Aspect는 **어디에(Pointcut) 어떤 로직(Advice)을 적용할지 선언하�
 
 ### Advice
 
-실제로 실행될 공통 로직이다.  
+실제로 실행될 공통 로직이다.
+
 Spring에서는 내부적으로 `MethodInterceptor` 기반으로 실행되며,  
 실제 호출 흐름은 [`ReflectiveMethodInvocation`](https://github.com/spring-projects/spring-framework/blob/main/spring-aop/src/main/java/org/springframework/aop/framework/ReflectiveMethodInvocation.java)
-의 `proceed()`에서 제어된다.  
+의 `proceed()`에서 제어된다.
+
 Advice는 **JoinPoint 실행 흐름에 삽입되는 코드 조각**이다.
 
 
 ### Pointcut
 
-Advice를 적용할 대상을 정의하는 조건식이다.  
+Advice를 적용할 대상을 정의하는 조건식이다.
+
 Spring에서는 [`Pointcut`](https://github.com/spring-projects/spring-framework/blob/main/spring-aop/src/main/java/org/springframework/aop/Pointcut.java)
-인터페이스로 표현된다.  
+인터페이스로 표현된다.
+
 Pointcut은 **어떤 JoinPoint에 Advice를 연결할지 결정하는 필터**이다.
 
 
 ### JoinPoint
 
-Advice가 개입할 수 있는 실행 지점이다.  
+Advice가 개입할 수 있는 실행 지점이다.
+
 Spring AOP는 프록시 기반이므로 기본적으로 **메서드 실행 지점만 JoinPoint로 사용한다.**
 
 
 ### Target
 
-실제 비즈니스 로직 객체이다.  
+실제 비즈니스 로직 객체이다.
+
 AOP 적용 이전의 원본 객체이며 Proxy에 의해 호출이 위임되는 대상이다.
 
 
 ### Proxy
 
-Target을 감싸 실행 흐름을 제어하는 객체이다.  
+Target을 감싸 실행 흐름을 제어하는 객체이다.
+
 AOP의 기본 실행 구조는 다음과 같다.
 
 ```
