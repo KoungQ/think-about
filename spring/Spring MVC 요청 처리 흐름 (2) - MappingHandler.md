@@ -220,6 +220,4 @@ HandlerMapping 단계에서 일어나는 일을 한 줄로 정리하면 다음�
 - 최종 `HandlerMethod`를 선택한 뒤
 - interceptor를 포함한 `HandlerExecutionChain`으로 반환한다.
 
-다음 장에서는 선택된 `HandlerMethod`를 실제로 실행하는 과정인 `HandlerAdapter`와 `ArgumentResolver` 중심의 **실행 구조**를 다룰 예정이다.
-
-다음 장: [Spring MVC 요청 처리 흐름 (3) - HandlerAdapter.md](Spring%20MVC%20%EC%9A%94%EC%B2%AD%20%EC%B2%98%EB%A6%AC%20%ED%9D%90%EB%A6%84%20%283%29%20-%20HandlerAdapter.md)
+[다음 장](Spring%20MVC%20%EC%9A%94%EC%B2%AD%20%EC%B2%98%EB%A6%AC%20%ED%9D%90%EB%A6%84%20%283%29%20-%20HandlerAdapter.md)에서는 선택된 `HandlerMethod`를 실제로 실행하는 과정인 `HandlerAdapter`와 `ArgumentResolver` 중심의 **실행 구조**를 다룰 예정이다.
