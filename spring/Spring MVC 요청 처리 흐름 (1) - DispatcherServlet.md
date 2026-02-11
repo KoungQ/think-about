@@ -283,6 +283,4 @@ Client → Controller → View
 세 구조가 협력하는 흐름이고,  
 이 전체 순서를 조율하는 중심이 `DispatcherServlet`이다.
 
-다음 장에서는 `HandlerMapping` 내부에서 URL에 맞는 handler(HandlerMethod)가 어떻게 선택되는지를 이어서 살펴볼 것이다.
-
-다음 장: [Spring MVC 요청 처리 흐름 (2) - MappingHandler.md](Spring%20MVC%20%EC%9A%94%EC%B2%AD%20%EC%B2%98%EB%A6%AC%20%ED%9D%90%EB%A6%84%20%282%29%20-%20MappingHandler.md)
+[다음 장](Spring%20MVC%20%EC%9A%94%EC%B2%AD%20%EC%B2%98%EB%A6%AC%20%ED%9D%90%EB%A6%84%20%282%29%20-%20MappingHandler.md)에서는 `HandlerMapping` 내부에서 URL에 맞는 handler(HandlerMethod)가 어떻게 선택되는지를 이어서 살펴볼 것이다.
