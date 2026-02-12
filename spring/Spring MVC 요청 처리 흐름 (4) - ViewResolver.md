@@ -243,4 +243,4 @@ HttpServlet.service()
 
 ```
 
-아래에서 인터셉터와 관련한 내용은 [Interceptor.md](링크주소)에서 확인할 수 있다.
+아래에서 인터셉터와 관련한 내용은 [Interceptor와 Filter](Interceptor와%20Filter.md)에서 확인할 수 있다.
